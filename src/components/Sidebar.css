@@ -1,0 +1,28 @@
+.sidebar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sidebar-logo {
+    width: 30%;
+}
+
+.sidebar-content {
+    align-self: flex-start;
+}
+
+.tag-list {
+    align-self: flex-start;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.tag-list-item {
+    color: #ebebeb;
+    background-color: #559ae3;
+    border: solid 1px #559ae3;
+    padding: 3px;
+    border-radius: 3px;
+    margin: .2em;
+
+}

@@ -1,0 +1,44 @@
+.card-item {
+    padding: 20px;
+    border: 1px solid #1a4b23;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.card-icon {
+    max-width: 200px;
+    align-self: center;
+}
+
+.card-content {
+    margin-left: 20px;
+}
+
+.card-title {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.card-owner {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.card-link {
+    padding: 5px;
+    background-color: #e81e2b;
+    border: 1px solid #e81e2b;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+.card-link:hover {
+    background-color: #AE171D;
+}
+
+.card-link:visited {
+    color: #ffffff;
+}

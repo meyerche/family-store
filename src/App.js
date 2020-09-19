@@ -7,9 +7,11 @@ function App() {
     return (
         <main role="main" className="main-content">
             <div className="flex-container wrapper">
-                <aside className="page-sidebar">
-                    <Sidebar />
-                </aside>
+                <div className="page-sidebar">
+                    <aside className="page-sidebar-content">
+                        <Sidebar />
+                    </aside>
+                </div>
                 <section className="page-content">
                     <Content />
                 </section>
