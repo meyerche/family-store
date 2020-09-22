@@ -1,10 +1,11 @@
 .card-item {
     padding: 20px;
-    border: 1px solid #1a4b23;
+    /*border: 1px solid #1a4b23;*/
     border-radius: 5px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    margin-bottom: 20px;
 }
 
 .card-icon {
@@ -17,12 +18,12 @@
 }
 
 .card-title {
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 5px;
 }
 
 .card-owner {
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 5px;
 }
 .card-link {

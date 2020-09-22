@@ -8,21 +8,25 @@
 }
 
 .sidebar-content {
-    align-self: flex-start;
+    /*align-self: flex-start;*/
+    align-self: stretch;
 }
 
-.tag-list {
+.tag-list-container {
     align-self: flex-start;
     margin-block-start: 1em;
     margin-block-end: 1em;
+    display: flex;
+    justify-content: flex-start;
 }
 
-.tag-list-item {
-    color: #ebebeb;
-    background-color: #559ae3;
-    border: solid 1px #559ae3;
-    padding: 3px;
-    border-radius: 3px;
-    margin: .2em;
+.tag-list > .tag-list-item {
+    /*color: #ebebeb;*/
+    /*background-color: #559ae3;*/
+    /*border: solid 1px #559ae3;*/
+    /*padding: 3px;*/
+    /*border-radius: 3px;*/
+    margin: 0 0 5px 5px;
+
 
 }

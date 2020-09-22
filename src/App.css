@@ -1,9 +1,10 @@
+
 main, section, aside, footer {
   margin: 0;
   padding: 20px;
   /*border: 1px solid #000000;*/
   color: #555555;
-  background-color: #fdfdfd;
+  background-color: #fbfbfb;
 }
 
 @media screen and (min-width: 640px) {
@@ -16,11 +17,12 @@ main, section, aside, footer {
   flex: 0 1 30%;
   /*border-right: 1px solid #000000;*/
   padding-right: 2px;
-  background: linear-gradient(to bottom, #1a4b23, #fdfdfd);
+  background: linear-gradient(to bottom, #1a4b23, #fbfbfb);
 }
 
 .page-sidebar-content {
-  background-color: #fdfdfd;
+  background-color: #fbfbfb;
+  height: 100%;
 }
 
 .page-content {
