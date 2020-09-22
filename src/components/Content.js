@@ -8,7 +8,9 @@ function CardItem(props) {
 
     return (
         <Card variant="outlined" className="card-item">
-            <img className="card-icon" src={require('../assets/img/' + card.imgFilename)} alt={card.title} />
+            <div className="card-icon">
+                <img src={require('../assets/img/' + card.imgFilename)} alt={card.title} />
+            </div>
             <div className="card-content">
                 <h4 className="card-title">{card.title}</h4>
                 <h5 className="card-owner">{card.owner}</h5>
