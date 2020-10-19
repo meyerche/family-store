@@ -7,18 +7,26 @@ main, section, aside, footer {
   background-color: #fbfbfb;
 }
 
+.page-sidebar {     /* For small screens, sidebar is on top so show bottom border */
+  flex: 0 1 30%;
+  padding-right: 0;
+  padding-bottom: 2px;
+  background: linear-gradient(to right, #1a4b23, #fbfbfb);
+}
+
 @media screen and (min-width: 640px) {
   .flex-container {
     display: flex;
   }
+
+  .page-sidebar {     /* For med/large screens, sidebar is on side so show right border */
+    padding-bottom: 0;
+    padding-right: 2px;
+    background: linear-gradient(to bottom, #1a4b23, #fbfbfb);
+  }
 }
 
-.page-sidebar {
-  flex: 0 1 30%;
-  /*border-right: 1px solid #000000;*/
-  padding-right: 2px;
-  background: linear-gradient(to bottom, #1a4b23, #fbfbfb);
-}
+
 
 .page-sidebar-content {
   background-color: #fbfbfb;

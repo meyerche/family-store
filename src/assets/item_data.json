@@ -7,7 +7,7 @@
 		"imgFilename":"ifcatshadthumbs_icon.jpg",
 		"urlDescription":"IfCatsHadThumbs.com",
 		"url":"https://www.ifcatshadthumbs.com",
-		"tags":["Toys", "Clothes", "Books"]
+		"tags":["toys", "clothes", "books"]
 	},
 	{
 		"id": 2,
@@ -17,27 +17,27 @@
 		"imgFilename": "senserelief_logo.png",
 		"urlDescription": "SenseReliefApp.com",
 		"url": "https://sensereliefapp.com",
-		"tags": ["Apps"]
+		"tags": ["apps"]
 	},
 	{
 		"id": 3,
 		"title": "Growth From Failure",
 		"owner": "Yinh",
-		"description": "A free podcast that highlights unique success stories with entrepreneurs, investors, athletes, pioneers of all types… and shares their journey of success with their failures and ultimately, their growth.",
+		"description": "A free podcast that highlights unique success stories with entrepreneurs, investors, athletes, pioneers of all types… and shares their journey of success with their failures and ultimately, their growth. Subscribe  from your favorite podcast app or go the website to find a list of episodes.",
 		"imgFilename": "growthfromfailure_logo.jpg",
 		"urlDescription": "growthfromfailure.com",
 		"url": "https://www.growthfromfailure.com",
-		"tags": ["Podcast"]
+		"tags": ["podcast"]
 	},
 	{
 		"id": 4,
 		"title": "Cooking With Tiffany: Sensational Recipes for Healthy Living",
 		"owner": "Tiffany Sauter",
-		"description": "Recipes that are healthy, nutritious, delicious, and easy to prepare. Find it on Amazon or email Stefan directly at albinogoldfish@yahoo.com to direct for direct order if they are out of stock.",
+		"description": "Recipes that are healthy, nutritious, delicious, and easy to prepare. Find it on Amazon or email Stefan directly at albinogoldfish@yahoo.com for direct order if they are out of stock.",
 		"imgFilename": "cookingwithtiffany_logo.jpg",
 		"urlDescription": "Amazon.com",
 		"url": "https://www.amazon.com/Cooking-Tiffany-Sensational-Recipes-Healthy/dp/1483587487",
-		"tags": ["Books"]
+		"tags": ["books"]
 	},
 	{
 		"id": 5,
@@ -47,6 +47,6 @@
 		"imgFilename": "roomforlove_logo.jpg",
 		"urlDescription": "Amazon.com",
 		"url": "https://www.amazon.com/Room-Love-Novel-Andrea-Meyer/dp/0312370784",
-		"tags": ["Books"]
+		"tags": ["books"]
 	}
 ]

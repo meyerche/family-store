@@ -8,6 +8,8 @@ class App extends React.Component {
     constructor(props) {
         super(props);
         this.extractTags = this.extractTags.bind(this);
+        this.handleTagSelect = this.handleTagSelect.bind(this);
+        this.state = {selectedTag: ''};
     }
 
     extractTags(items) {
@@ -20,17 +22,26 @@ class App extends React.Component {
         return tags.filter((item, index) => tags.indexOf(item) === index);
     }
 
+    handleTagSelect(tagName) {
+        this.setState({selectedTag: tagName});
+    }
+
     render() {
+        const tag = this.state.selectedTag
         return (
             <main role="main" className="main-content">
                 <div className="flex-container wrapper">
                     <div className="page-sidebar">
                         <aside className="page-sidebar-content">
-                            <Sidebar tags={this.extractTags(data)}/>
+                            <Sidebar
+                                tags={this.extractTags(data)}
+                                onTagSelect={this.handleTagSelect}
+                                selectedTag={tag}
+                            />
                         </aside>
                     </div>
                     <section className="page-content">
-                        <Content cards={data}/>
+                        <Content cards={data} tag={tag}/>
                     </section>
                 </div>
 

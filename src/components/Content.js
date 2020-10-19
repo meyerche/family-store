@@ -23,15 +23,30 @@ function CardItem(props) {
     );
 }
 
-function Content(props) {
-    console.log(props.cards);
-    return (
-        <div className="main-feed">
-            {props.cards.map((card) =>
-                <CardItem key={card.id} card={card}/>
-            )}
-        </div>
-    );
+class Content extends React.Component {
+    constructor(props) {
+        super(props);
+        this.filterCards = this.filterCards.bind(this);
+    }
+
+    filterCards() {
+        if (this.props.tag !== '')
+            return this.props.cards.filter(card => card.tags.includes(this.props.tag));
+        else
+            return this.props.cards;
+    }
+
+    render() {
+        const cards = this.filterCards();
+        console.log(cards);
+        return (
+            <div className="main-feed">
+                {cards.map((card) =>
+                    <CardItem key={card.id} card={card}/>
+                )}
+            </div>
+        );
+    }
 }
 
 export default Content;
