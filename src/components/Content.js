@@ -38,7 +38,6 @@ class Content extends React.Component {
 
     render() {
         const cards = this.filterCards();
-        console.log(cards);
         return (
             <div className="main-feed">
                 {cards.map((card) =>
