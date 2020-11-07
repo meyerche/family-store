@@ -11,7 +11,7 @@ class Sidebar extends React.Component {
     }
 
     handleTagSelect(e) {
-        let selected = e.target.innerText.toLowerCase();
+        let selected = e.target.textContent.toLowerCase();
         selected = (selected === 'all' ? '' : selected);
         this.props.onTagSelect(selected);
     }
