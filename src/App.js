@@ -14,7 +14,7 @@ class App extends React.Component {
     }
 
     componentDidMount() {
-        initGA('G-TVJE31L66S');
+        initGA('UA-183011672-1');
         PageView();
     }
 
