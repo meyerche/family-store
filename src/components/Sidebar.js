@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../assets/img/leaves_icon.svg';
 import './Sidebar.css'
 import Button from '@material-ui/core/Button';
+import { Event } from './Tracking';
 
 class Sidebar extends React.Component {
     constructor(props) {
@@ -12,7 +13,13 @@ class Sidebar extends React.Component {
 
     handleTagSelect(e) {
         let selected = e.target.textContent.toLowerCase();
-        selected = (selected === 'all' ? '' : selected);
+
+        if (selected === 'all')
+            selected = '';
+        else {
+            Event('Filter', 'Category tag selected', selected);
+        }
+
         this.props.onTagSelect(selected);
     }
 

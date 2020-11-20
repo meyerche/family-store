@@ -3,6 +3,7 @@ import './App.css';
 import Sidebar from './components/Sidebar';
 import Content from './components/Content';
 import data from './assets/item_data.json';
+import {PageView, initGA} from './components/Tracking';
 
 class App extends React.Component {
     constructor(props) {
@@ -10,6 +11,11 @@ class App extends React.Component {
         this.extractTags = this.extractTags.bind(this);
         this.handleTagSelect = this.handleTagSelect.bind(this);
         this.state = {selectedTag: ''};
+    }
+
+    componentDidMount() {
+        initGA('G-TVJE31L66S');
+        PageView();
     }
 
     extractTags(items) {
@@ -45,21 +51,6 @@ class App extends React.Component {
                     </section>
                 </div>
 
-
-                {/*<header className="App-header">*/}
-                {/*  <img src={logo} className="App-logo" alt="logo" />*/}
-                {/*  <p>*/}
-                {/*    Edit <code>src/App.js</code> and save to reload.*/}
-                {/*  </p>*/}
-                {/*  <a*/}
-                {/*    className="App-link"*/}
-                {/*    href="https://reactjs.org"*/}
-                {/*    target="_blank"*/}
-                {/*    rel="noopener noreferrer"*/}
-                {/*  >*/}
-                {/*    Learn React*/}
-                {/*  </a>*/}
-                {/*</header>*/}
             </main>
         );
     }
