@@ -37,7 +37,7 @@ class Sidebar extends React.Component {
         return (
             <div className="sidebar-container">
                 <img src={logo} className="sidebar-logo" alt="logo"/>
-                <h1 className="sidebar-title">Family Store</h1>
+                <h1 className="sidebar-title">The Family Outpost</h1>
                 <div className="sidebar-content">
                     <p>
                         Our friends and family are great. This website is a collection of

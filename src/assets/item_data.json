@@ -1,52 +1,97 @@
 [
-	{
-		"id": 1,
-		"title":"If Cats Had Thumbs",
-		"owner":"Cindy Dick",
-		"description":"Collection of books, stuffies, t-shirts and more.",
-		"imgFilename":"ifcatshadthumbs_icon.jpg",
-		"urlDescription":"IfCatsHadThumbs.com",
-		"url":"https://www.ifcatshadthumbs.com",
-		"tags":["toys", "clothes", "books"]
-	},
-	{
-		"id": 2,
-		"title": "Sense Relief",
-		"owner": "Moshe",
-		"description": "Apple watch app that provides safe relief from symptoms of morning sickness, motion sickness, nausea, and vomitting.",
-		"imgFilename": "senserelief_logo.png",
-		"urlDescription": "SenseReliefApp.com",
-		"url": "https://sensereliefapp.com",
-		"tags": ["apps"]
-	},
-	{
-		"id": 3,
-		"title": "Growth From Failure",
-		"owner": "Yinh",
-		"description": "A free podcast that highlights unique success stories with entrepreneurs, investors, athletes, pioneers of all types… and shares their journey of success with their failures and ultimately, their growth. Subscribe  from your favorite podcast app or go the website to find a list of episodes.",
-		"imgFilename": "growthfromfailure_logo.jpg",
-		"urlDescription": "growthfromfailure.com",
-		"url": "https://www.growthfromfailure.com",
-		"tags": ["podcast"]
-	},
-	{
-		"id": 4,
-		"title": "Cooking With Tiffany: Sensational Recipes for Healthy Living",
-		"owner": "Tiffany Sauter",
-		"description": "Recipes that are healthy, nutritious, delicious, and easy to prepare. Find it on Amazon or email Stefan directly at albinogoldfish@yahoo.com for direct order if they are out of stock.",
-		"imgFilename": "cookingwithtiffany_logo.jpg",
-		"urlDescription": "Amazon.com",
-		"url": "https://www.amazon.com/Cooking-Tiffany-Sensational-Recipes-Healthy/dp/1483587487",
-		"tags": ["books"]
-	},
-	{
-		"id": 5,
-		"title": "Room For Love",
-		"owner": "Andrea Meyer",
-		"description": "The book was inspired by an article the author wrote for the New York Post and brings together two New York City obsessions: love and real estate.",
-		"imgFilename": "roomforlove_logo.jpg",
-		"urlDescription": "Amazon.com",
-		"url": "https://www.amazon.com/Room-Love-Novel-Andrea-Meyer/dp/0312370784",
-		"tags": ["books"]
-	}
+  {
+    "id": 1,
+    "rank": 1,
+    "title": "Cooking With Tiffany: Sensational Recipes for Healthy Living",
+    "owner": "Tiffany Sauter",
+    "description": "Recipes that are healthy, nutritious, delicious, and easy to prepare. Find it on Amazon.",
+    "imgFilename": "cookingwithtiffany_logo.jpg",
+    "urlDescription": "Amazon.com",
+    "url": "https://www.amazon.com/Cooking-Tiffany-Sensational-Recipes-Healthy/dp/1483587487",
+    "tags": [
+      "books"
+    ]
+  },
+  {
+    "id": 2,
+    "rank": 2,
+    "title": "If Cats Had Thumbs",
+    "owner": "Cindy Dick",
+    "description": "A collection of books, stuffies, t-shirts and more.",
+    "imgFilename": "ifcatshadthumbs_icon.jpg",
+    "urlDescription": "IfCatsHadThumbs.com",
+    "url": "https://www.ifcatshadthumbs.com",
+    "tags": [
+      "toys",
+      "clothes",
+      "books"
+    ]
+  },
+  {
+    "id": 3,
+    "rank": 2,
+    "title": "Sense Relief",
+    "owner": "Moshe Zilversmit",
+    "description": "Sense release is a proven Acupressure therapy app for the Apple watch app that provides safe relief from symptoms of morning sickness, motion sickness, nausea, and vomitting. Available free in the Apple App Store",
+    "imgFilename": "senserelief_logo.png",
+    "urlDescription": "SenseReliefApp.com",
+    "url": "https://sensereliefapp.com",
+    "tags": [
+      "apps",
+      "free"
+    ]
+  },
+  {
+    "id": 4,
+    "rank": 2,
+    "title": "Growth From Failure",
+    "owner": "Yinh Hihn",
+    "description": "A free podcast that highlights unique success stories with entrepreneurs, investors, athletes, pioneers of all types… and shares their journey of success with their failures and ultimately, their growth. Subscribe from your favorite podcast app or go the website to find a list of episodes.",
+    "imgFilename": "growthfromfailure_logo.jpg",
+    "urlDescription": "growthfromfailure.com",
+    "url": "https://www.growthfromfailure.com",
+    "tags": [
+      "podcasts",
+      "free"
+    ]
+  },
+  {
+    "id": 5,
+    "rank": 2,
+    "title": "Room For Love",
+    "owner": "Andrea Meyer",
+    "description": "The book was inspired by an article the author wrote for the New York Post and brings together two New York City obsessions: love and real estate.",
+    "imgFilename": "roomforlove_logo.jpg",
+    "urlDescription": "Amazon.com",
+    "url": "https://www.amazon.com/Room-Love-Novel-Andrea-Meyer/dp/0312370784",
+    "tags": [
+      "books"
+    ]
+  },
+  {
+    "id": 6,
+    "rank": 2,
+    "title": "Loree Sutton for Mayor of New York City",
+    "owner": "Loree Sutton, MD",
+    "description": "Loree Sutton, MD is a lifelong public servant and retired Brigadier General who, as the Army’s highest-ranking psychiatrist and Commissioner of New York City’s Department of Veterans’ Services, has devoted 35 years of service to the nation and New York. Please help us get the word out about Loree and her vision for New York City by making a contribution to the campaign.",
+    "imgFilename": "loreeformayor.png",
+    "urlDescription": "loreeformayor.nyc",
+    "url": "https://loreeformayor.nyc",
+    "tags": [
+      "donations"
+    ]
+  },
+  {
+    "id": 7,
+    "rank": 2,
+    "title": "Cocktail Bitters & Syrups - Strongwater Mountain Elixers",
+    "owner": "Nick Andresen",
+    "description": "Award Winning Rocky Mountain Made Craft Cocktail Enhancers. Free Shipping Over $25. Non-GMO Products. Handmade In Colorado. Organic Local Ingredients. No Sugar Added. No Added Colors Or Dies.",
+    "imgFilename": "Unknown.png",
+    "urlDescription": "strongwater.com",
+    "url": "https://www.strongwater.com",
+    "tags": [
+      "food"
+    ]
+  }
 ]
