@@ -47,8 +47,9 @@ class Sidebar extends React.Component {
                         {/*supporting their efforts.*/}
                     </p>
                 </div>
+
+                <div className="tag-list-header">Categories:</div>
                 <div className="tag-list-container">
-                    <div className="tag-list-header">Tags:</div>
                     <div className="tag-list">
                         {this.props.tags.map((tag) =>
                             <Button key={tag.indexOf} variant="contained" color={this.setButtonColor(tag)}
