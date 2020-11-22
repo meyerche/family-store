@@ -93,5 +93,20 @@
     "tags": [
       "food"
     ]
+  },
+  {
+    "id": 8,
+    "rank": 2,
+    "title": "Jonica's Art on RedBubble",
+    "owner": "Jonica Bradley",
+    "description": "Jonica is a writer, a painter, a rancher, and a poet. She spends her time on her tiny ranch playing with goats and sheep, cooking food creations, writing, painting, and taking photos.  At RedBubble you can get some of her art or photos on a variety of items such as stickers, magnets, mugs, shirts, iPhone cases, and more.  You could even get a rooster on a mask.",
+    "imgFilename": "jonica_sunrise.jpg",
+    "urlDescription": "redbubble.com",
+    "url": "https://www.redbubble.com/people/jonicabradley/shop",
+    "tags": [
+      "art",
+      "clothes",
+      "misc."
+    ]
   }
 ]
