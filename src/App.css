@@ -38,6 +38,11 @@ main, section, aside, footer {
   .main-feed {
     height: 100%;
   }
+
+  .page-content {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
 
 .page-sidebar-content {
@@ -49,8 +54,6 @@ main, section, aside, footer {
   flex: 1;
   height: 100%;
   overflow-y: auto;
-  padding-top: 0;
-  padding-bottom: 0;
 }
 
 .wrapper {
