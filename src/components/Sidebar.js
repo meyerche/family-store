@@ -32,6 +32,7 @@ class Sidebar extends React.Component {
 
     render() {
         let tags = this.props.tags;
+        tags = tags.sort();
         tags.unshift("all");
 
         return (

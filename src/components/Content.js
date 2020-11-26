@@ -52,7 +52,19 @@ class Content extends React.Component {
     }
 
     render() {
-        const cards = this.filterCards();
+        let cards = this.filterCards();
+        cards = cards.sort((a,b) => {
+            if (a.rank > b.rank){
+                return 1;
+            }
+            else if (a.rank < b.rank) {
+                return -1;
+            }
+            else {
+                return (a.owner > b.owner ? 1 : -1);
+            }
+        });
+
         return (
             <div className="main-feed">
                 {cards.map((card) =>
